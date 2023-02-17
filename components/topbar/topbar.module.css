@@ -1,0 +1,18 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 96px 16vw;
+}
+
+.logo{
+    width: 156px;
+    height: 75px;
+}
+
+.menu{
+    width: 36px;
+    height: 36px;
+}

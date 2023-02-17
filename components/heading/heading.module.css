@@ -1,0 +1,7 @@
+.heading{
+    font-family: Maison-Black;
+    font-size: min(148px,12vw);
+    color:#5A5656;
+    text-align: center;
+    line-height: min(112px,10vw);
+}

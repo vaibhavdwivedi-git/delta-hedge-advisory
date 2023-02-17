@@ -1,0 +1,10 @@
+.footer{
+    font-family: Maison-Medium;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    padding: 0vw 12vw;
+    background:linear-gradient(180deg,#1e191a 0,#7d7d7d);
+    padding-top: 64px;
+    padding-bottom: 16px;
+}

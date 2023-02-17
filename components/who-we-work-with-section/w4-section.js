@@ -1,0 +1,39 @@
+import styles from "./w4-section.module.css";
+import SubHeading from "../sub-heading/sub-heading";
+
+export default function W4Section() {
+  return (
+    <>
+      <div className={styles.container}>
+        <SubHeading>WHO WE WORK WITH</SubHeading>
+        <div className={styles.about}>
+          Founded in x 2022 by George and Lefteris started with a belief that
+          ideas should be worth talking about. We believed that advisory should
+          create “talkability” for clients' brands, products and services. We
+          liked the word so much we trademarked it, and is proud it’s become
+          part of the marketing lexicon – even if it is a term often borrowed
+          (illegally!) by other agencies and advisories.
+          <br />
+          <br />
+          We have partnered with PCB Partners and State Street where we were
+          responsible for leading and expanding their consultancy practice. This
+          includes the management of all PR pitches as well as developing new
+          approaches to supporting both brands and PR consultancies.
+          <br />
+          <br />
+          We are advisors to a number of high-growth businesses.These include:
+          <br />
+          <br />
+          - Food and Beverage companies in Western Balkans
+          <br />
+          - Fintech Companies
+          <br />
+          - PR software business
+          <br />
+          - Recruitment and assessment platform
+          <br />- Esports organisations
+        </div>
+      </div>
+    </>
+  );
+}

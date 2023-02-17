@@ -1,0 +1,33 @@
+.heroImage{
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index:1;
+    width:100vw;
+    height: 100vh;
+    background-image: url("../../public/Andrew_Bloch_Frank01.jpeg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100vw 100vh;
+    filter: grayscale(100%);
+    display: flex;
+    justify-content: center;
+}
+
+.heroImage:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg,rgba(30,25,26,0) 0,#1e191a 80%,#1e191a);
+}
+
+
+@media only screen and (max-width: 1162px){
+    .heroImage{
+        background-position-y: -108px;
+        
+    }
+ }

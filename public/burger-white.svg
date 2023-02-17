@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="23px" viewBox="0 0 28 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Header-mobile" transform="translate(-269.000000, -24.000000)" fill="#FFFFFF">
+            <g id="Group-2">
+                <g id="Group" transform="translate(269.000000, 24.000000)">
+                    <polygon id="Rectangle" points="1 0 28 0 27 3 1.77635684e-15 3"></polygon>
+                    <polygon id="Rectangle-Copy" points="1.33333333 10 28 10 26.6666667 13 0 13"></polygon>
+                    <polygon id="Rectangle-Copy-2" points="1 20 28 20 27 23 1.77635684e-15 23"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

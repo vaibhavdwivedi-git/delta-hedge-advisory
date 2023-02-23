@@ -33,7 +33,6 @@ export default function Home() {
 
   const handleScroll = () => {
     setClientWindowHeight(window.scrollY);
-    console.log(window.scrollY);
   };
 
   useEffect(() => {

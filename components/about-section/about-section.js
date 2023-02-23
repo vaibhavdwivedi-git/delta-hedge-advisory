@@ -1,8 +1,10 @@
 import styles from "./about-section.module.css";
+import SubHeading from "../sub-heading/sub-heading";
 
 export default function AboutSection() {
   return (
     <>
+      <SubHeading>ABOUT US</SubHeading>
       <div className={styles.about}>
         Two young wannapreneurs met originally in Boston,MA in 2016. Having
         achieved extensive work experience in the financial services sector

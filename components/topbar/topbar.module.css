@@ -4,12 +4,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 96px 16vw;
+    padding: 72px 216px;
 }
 
 .logo{
-    width: 156px;
-    height: 75px;
+    width: 300px;
+    height: 300px;
 }
 
 .menu{
@@ -18,15 +18,15 @@
 }
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1162px){
     .container{
-        padding: 36px 24px 24px 8px;
+        padding: 36px 16px 8px 8px;
     }
 
 
     .logo{
-        width: 96px;
-        height: 64px;
+        width: 125px;
+        height: 125px;
     }
 
     .menu{

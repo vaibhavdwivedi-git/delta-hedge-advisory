@@ -19,9 +19,6 @@ export default function Navbar({ onclick, about, w4, timeline, hw }) {
           <div className={styles.option} onClick={w4}>
             WHO WE WORK WITH
           </div>
-          <div className={styles.option} onClick={timeline}>
-            OUR TIMELINE
-          </div>
           <div className={styles.option} onClick={hw}>
             HOW WE WORK
           </div>

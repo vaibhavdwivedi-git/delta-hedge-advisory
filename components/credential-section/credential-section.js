@@ -7,14 +7,14 @@ export default function CredentialSection() {
   return (
     <>
       <div className={styles.container}>
-        <Heading>DELTA HEDGE</Heading>
+        <Heading>DELTA HEDGE ADVISORY</Heading>
         <div className={styles.credentials}>
           <Credential src="./email.svg" color="#ffffff">
             georgios.tzoumakas@yahoo.com
           </Credential>
 
           <Credential src="./phone.svg" color="#ffffff">
-            +4407548183981
+            +44 07548183981
           </Credential>
         </div>
 

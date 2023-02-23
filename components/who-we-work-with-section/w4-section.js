@@ -27,17 +27,22 @@ export default function W4Section() {
           marketing services agencies who are looking for an exit.
           <br />
           <br />
-          We are advisors to a number of high-growth businesses.These include:
+          We are advisors to a number of high-growth businesses. These include:
           <br />
           <br />
-          - Food and Beverage companies in Western Balkans
+          <span className={styles.italic}>
+            Food and Beverage companies in Western Balkans
+          </span>
           <br />
-          - Fintech Companies
+          <span className={styles.italic}>Fintech Companies</span>
           <br />
-          - PR software business
+          <span className={styles.italic}>PR software business</span>
           <br />
-          - Recruitment and assessment platform
-          <br />- Esports organisations
+          <span className={styles.italic}>
+            Recruitment and assessment platform
+          </span>
+          <br />
+          <span className={styles.italic}>Esports organisations</span>
         </div>
       </div>
     </>

@@ -12,3 +12,7 @@
     padding: 0vw 12vw;
     margin-top: 48px;
 }
+.italic{
+    font-style: italic;
+    font-size: 18px;
+}

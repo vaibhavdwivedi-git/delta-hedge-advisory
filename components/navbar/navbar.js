@@ -28,22 +28,37 @@ export default function Navbar({ onclick, about, w4, timeline, hw }) {
         </div>
 
         <div className={styles.credentials}>
-          <Credential
-            src="./email-black.svg"
-            text="georgios.tzoumakas@yahoo.com"
-            color="#000000"
-          />
+          <Credential src="./email-black.svg" color="#000000">
+            georgios.tzoumakas@yahoo.com
+          </Credential>
 
-          <Credential
-            src="./phone-black.svg"
-            text="+4407548183981"
-            color="#000000"
-          />
+          <Credential src="./phone-black.svg" color="#000000">
+            +4407548183981
+          </Credential>
+
+          <br />
+          <br />
+
+          <Credential src="./maps.png" color="#000000">
+            Highway Tirana - Durrës,
+            <br /> KM.1 Kashar,1001,Albania
+          </Credential>
+
+          <Credential src="./maps.png" color="#000000">
+            5 Marylebone Street
+            <br />
+            London UK, W1G 8JD
+          </Credential>
         </div>
 
         <div className={styles.tray}>
-          <Social src="./twitter-black.svg" />
-          <Social src="./linkedin-black.svg" />
+          <a href="https://twitter.com/greekdubliner?s=11&t=OQ2uFZN1g8OylObIua6zdg">
+            <Social src="./twitter-black.svg" />{" "}
+          </a>
+
+          <a href="https://www.linkedin.com/in/georgios-tzoumakas-99266397">
+            <Social src="./linkedin-black.svg" />
+          </a>
         </div>
       </div>
     </>

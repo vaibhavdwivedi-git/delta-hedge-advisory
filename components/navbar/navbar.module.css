@@ -15,6 +15,12 @@
     flex-direction: column;
     gap:16px;
     margin-top:8vh;
+    cursor:pointer;
+    transition: all 0.8s ease-out;
+}
+
+.option:hover{
+    color:#5A5656;
 }
 
 .option{

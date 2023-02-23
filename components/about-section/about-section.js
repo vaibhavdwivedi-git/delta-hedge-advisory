@@ -4,6 +4,25 @@ export default function AboutSection() {
   return (
     <>
       <div className={styles.about}>
+        Two young wannapreneurs met originally in Boston,MA in 2016. Having
+        achieved extensive work experience in the financial services sector
+        accompanied  by academic excellence they are here to dig into your
+        problem for your business in Western Balkans.
+        <br />
+        <br />
+        Having completed and participated on buy and sell side deals in Northern
+        Europe with enterprise values varied from £10M to £400M, Lefteris and
+        George continue this successive journey under which they are willing to
+        help early and well - established firms with long term propositions and
+        solid and concrete advices.
+      </div>
+    </>
+  );
+}
+
+/**
+ * 
+   <div className={styles.about}>
         Our portfolio includes board advisory, consultancy and project roles for
         a range of business, sectors and agencies.
         <br />
@@ -31,6 +50,4 @@ export default function AboutSection() {
         deal between Apex Group and Sanne - a leading global provider of
         alternative asset and corporate services.
       </div>
-    </>
-  );
-}
+ */

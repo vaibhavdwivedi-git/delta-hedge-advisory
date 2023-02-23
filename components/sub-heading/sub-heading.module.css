@@ -1,6 +1,14 @@
 .heading{
     font-family: Maison-Black;
-    font-size: min(72px,6vw);
+    font-size: 48px;
     color:#5A5656;
     text-align: center;
 }
+
+@media only screen and (max-width: 768px){
+    .heading{
+   
+        font-size: 28px;
+        
+    }
+ }

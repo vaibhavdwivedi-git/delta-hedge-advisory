@@ -2,16 +2,17 @@
     top: 0;
     left: 0;
     right: 0;
+    bottom: 0;
     z-index:1;
-    width:100vw;
     height: 100vh;
-    background-image: url("../../public/Andrew_Bloch_Frank01.jpeg");
+    background-image: url("../../public/Andrew_Bloch_Frank01.jpg");
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 100vw 100vh;
+    background-size: cover;
     filter: grayscale(100%);
     display: flex;
     justify-content: center;
+   
 }
 
 .heroImage:after {

@@ -7,20 +7,25 @@ export default function CredentialSection() {
   return (
     <>
       <div className={styles.container}>
-        <Heading>DELTA HEDGE ADVISORY</Heading>
+        <Heading>DELTA HEDGE</Heading>
         <div className={styles.credentials}>
-          <Credential
-            src="./email.svg"
-            text="georgios.tzoumakas@yahoo.com"
-            color="#ffffff"
-          />
+          <Credential src="./email.svg" color="#ffffff">
+            georgios.tzoumakas@yahoo.com
+          </Credential>
 
-          <Credential src="./phone.svg" text="+4407548183981" color="#ffffff" />
+          <Credential src="./phone.svg" color="#ffffff">
+            +4407548183981
+          </Credential>
         </div>
 
         <div className={styles.tray}>
-          <Social src="./twitter.svg" />
-          <Social src="./linkedin.svg" />
+          <a href="https://twitter.com/greekdubliner?s=11&t=OQ2uFZN1g8OylObIua6zdg">
+            <Social src="./twitter.svg" />{" "}
+          </a>
+
+          <a href="https://www.linkedin.com/in/georgios-tzoumakas-99266397">
+            <Social src="./linkedin.svg" />
+          </a>
         </div>
       </div>
     </>

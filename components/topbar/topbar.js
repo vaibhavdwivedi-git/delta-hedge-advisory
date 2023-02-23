@@ -4,7 +4,7 @@ export default function Topbar({ onclick }) {
   return (
     <>
       <div className={styles.container}>
-        <img src="./logo-white.png" className={styles.logo} />
+        <img src="./logo-white.svg" className={styles.logo} />
         <img
           src="./burger-white.svg"
           className={styles.menu}

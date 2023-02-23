@@ -106,6 +106,13 @@ export default function Home() {
           <div id="credential">
             <CredentialSection />
           </div>
+          {/**
+          * 
+          * 
+          <div id="timeline">
+            <TimelineSection />
+          </div>
+          */}
 
           <div id="about">
             <AboutSection />
@@ -113,10 +120,6 @@ export default function Home() {
 
           <div id="w4">
             <W4Section />
-          </div>
-
-          <div id="timeline">
-            <TimelineSection />
           </div>
 
           <div id="hw">

@@ -11,7 +11,7 @@ export default function HWSection() {
           Our time, expertise and network are all available to benefit you. We
           can join your business as board advisors, or come onboard as a
           consultant to handle one-off and time-critical projects for your
-          business.
+          business in Western Balkans.
           <br />
           Whatever your ambitions or challenges, together I have no doubt that
           we can achieve them, and more.
